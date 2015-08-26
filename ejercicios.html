@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vehicles Types!!</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		  	<h1>Types of Vehicles and Propultion Units..</h1>
+		  	<h3> Write a hierarchy of classes to simulate vehicles</h3>
+		  	<p style="font-size: 16px;">
+				All vehicles should have speed and propulsion units (things which make them move) and a Accelerate method, which should update their speed by summing it with the acceleration of their propulsion units
+			</p>
+			<p style="font-size: 16px;">
+				Each propulsion unit can produce acceleration (change in speed). There should be three types of propulsion units - wheels, propelling nozzles and propellers
+			</p>
+			<h3> Write a hierarchy of classes to simulate vehicles (Cont.) </h3>
+			<p style="font-size: 16px;">
+				A wheel should have a radius and the acceleration it produces should be equal to its perimeter
+			</p>
+			<h3> Write a hierarchy of classes to simulate vehicles (Cont.) </h3>
+			<p style="font-size: 16px;">
+				A propelling nozzle should have power and an afterburner switch. The acceleration the nozzle should produce as much acceleration as it has power, but if the afterburner is on it should produce double acceleration.
+			</p>
+			<h3> Write a hierarchy of classes to simulate vehicles (Cont.) </h3>
+			<p style="font-size: 16px;">
+				A propeller should have a number of fins and a spin direction. The acceleration a propeller produces should by default be equal to the number of fins it has. The spin direction should be clockwise and counter-clockwise. If the spin direction is counter-clockwise, the acceleration the propeller produces should be negative, if the spin direction is clockwise, the acceleration should be positive.
+			</p>
+			<h3> Write a hierarchy of classes to simulate vehicles (Cont.) </h3>
+			<p style="font-size: 16px;">
+				There should be land, air and water vehicles. Land vehicles should have 4 wheels, air vehicles should have 1 propelling nozzles and water vehicles should have a customizable number of propellers (passed in the constructor).
+			</p>
+			<p style="font-size: 16px;">
+				Air vehicles should have the ability to switch on/off their afterburners.
+			</p>
+			<p style="font-size: 16px;">
+				Water vehicles should have the ability to change the spin direction of their propellers.
+			</p>
+			<h3> Write a hierarchy of classes to simulate vehicles (Cont.) </h3>
+			<p style="font-size: 16px;">
+				Implement one additional amphibious vehicle. It should both have a propeller (so it can move on water) and wheels (so it can move on land). The amphibious vehicle should be able to switch between land and water mode and it's speed property and Accelerate method should respectively depend on its wheels in the first case and on its propeller in the second case
+			</p>
+			<h3 style="color: red;">Take a look in Console </h3>
+		</div>
+	</div>
+	<!--Scripts-->
+	<script type="text/javascript" src="ejercicios.js"></script>
+</body>
+</html>
